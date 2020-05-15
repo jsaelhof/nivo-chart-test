@@ -13,6 +13,10 @@ const App = () => {
   const classes = useStyles();
   return (
     <div className={classes.page}>
+      <h3>Nivo Charts</h3>
+      <a href="https://nivo.rocks/" target="_blank">
+        https://nivo.rocks/
+      </a>
       <LineChart />
       <CyclesChart />
     </div>
