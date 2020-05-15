@@ -14,9 +14,21 @@ const App = () => {
   return (
     <div className={classes.page}>
       <h3>Nivo Charts</h3>
-      <a href="https://nivo.rocks/" target="_blank">
-        https://nivo.rocks/
-      </a>
+      <div>
+        <a href="https://nivo.rocks/" target="_blank">
+          https://nivo.rocks/
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/plouc/nivo" target="_blank">
+          Nivo Github
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/jsaelhof/nivo-chart-test" target="_blank">
+          Github for this test
+        </a>
+      </div>
       <LineChart />
       <CyclesChart />
     </div>
